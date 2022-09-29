@@ -37,8 +37,8 @@ const whatsAppLink = computed(
             target="_blank"
             class="flex items-center gap-1 px-2 py-1 border rounded bg-slate-100"
           >
-            <img class="w-6" :src="useGiftStores(store).logo" />
-            <p class="text-xs">{{ useGiftStores(store).name }}</p>
+            <img class="w-6" :src="useGiftStores(store)?.logo" />
+            <p class="text-xs">{{ useGiftStores(store)?.name }}</p>
           </a>
         </li>
       </ul>
