@@ -44,6 +44,9 @@ const sortedGiftList = computed(() => {
       <li v-for="gift in sortedGiftList" :key="gift.id">
         <GiftItem :giftData="gift" @openGiftModal="openGiftModal" />
       </li>
+      <li>
+        <GiftItem pix />
+      </li>
     </ul>
     <CustomModal :isModalVisible="isModalActive(giftModalIdentifier)">
       <template #modalContent>
