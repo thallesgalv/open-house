@@ -5,6 +5,9 @@ import magaluLogo from '@/assets/magalu.png'
 import mercadolivreLogo from '@/assets/mercadolivre.webp'
 import shopeeLogo from '@/assets/shopee.png'
 import shoptimeLogo from '@/assets/shoptime.png'
+import camicadoLogo from '@/assets/camicado.webp'
+import carrefourLogo from '@/assets/carrefour.webp'
+import extraLogo from '@/assets/extra.webp'
 
 export const useGiftStores = (storeName) => {
   const stores = {
@@ -35,6 +38,18 @@ export const useGiftStores = (storeName) => {
     shopTime: {
       name: 'Shoptime',
       loop: shoptimeLogo
+    },
+    camicado: {
+      name: 'Camicado',
+      loop: camicadoLogo
+    },
+    carrefour: {
+      name: 'Carrefour',
+      loop: carrefourLogo
+    },
+    extra: {
+      name: 'Extra',
+      loop: extraLogo
     }
   }
 
