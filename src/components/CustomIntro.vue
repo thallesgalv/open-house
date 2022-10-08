@@ -11,12 +11,12 @@
   </div>
   <p class="mt-2">
     Vocês são pessoas muito especiais para nós! 💙 Por isso, é um orgulho pra
-    gente convidamos vocês para o nosso
+    gente convidarmos vocês para o nosso
     <strong class="text-primary">open house</strong>!
   </p>
   <p class="mt-2">
-    Vamos comemorar essa nossa nova conquista juntos em uma noite regadas a
-    muita pizza, vinho e jogos! 😁
+    Vamos comemorar essa nossa nova conquista juntos em uma noite regada a jogos
+    e comidinhas! 😁
   </p>
   <p class="mt-2">
     A comida boa e a hospitalidade é por nossa conta, mas que tal ajudar esse
