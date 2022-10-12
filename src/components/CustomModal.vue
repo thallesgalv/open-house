@@ -28,7 +28,7 @@ const handleClickOutside = ({ target }) => {
       ref="containerModalRef"
     >
       <div
-        class="w-full p-4 m-4 bg-white rounded shadow-md md:max-w-lg animate-show"
+        class="w-full px-6 py-4 m-4 bg-white rounded shadow-md md:max-w-lg animate-show"
       >
         <div class="flex justify-end w-full">
           <svg

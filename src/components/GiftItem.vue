@@ -17,7 +17,7 @@ const emit = defineEmits(['openGiftModal'])
 const giftedBy = ref(props.giftData?.presenteado || '')
 
 const giftName = computed(() =>
-  props?.pix ? 'Manda um Pix :)' : props.giftData?.nome
+  props?.pix ? 'Pode mandar um Pix pra gente :)' : props.giftData?.nome
 )
 const giftImage = computed(() => (props?.pix ? pixImage : props.giftData?.foto))
 const giftPrice = computed(() =>
@@ -61,18 +61,18 @@ const copyKey = () => {
 
 <template>
   <div
-    class="flex items-center justify-center gap-2 p-4 bg-white shadow-md cursor-pointer md:flex-col"
+    class="flex items-center justify-between gap-2 p-4 bg-white shadow-md cursor-pointer md:justify-center md:flex-col md:h-80"
     :class="dynamicCardClasses"
     @click="dynamicAction"
   >
     <img :src="giftImage" class="w-24 h-24 md:w-36 md:h-36" />
-    <div class="flex flex-col gap-1 text-sm text-center">
-      <p class="font-semibold text-primary md:text-lg">
+    <div class="flex flex-col justify-center gap-1 text-sm text-center">
+      <p class="flex justify-center font-semibold text-primary md:text-base">
         {{ giftName }}
       </p>
       <p>{{ giftPrice }}</p>
       <button
-        class="px-1 py-2 mt-1 text-white truncate rounded bg-primary h-9"
+        class="py-2 mx-auto mt-1 text-white truncate rounded w-36 md:w-full w-px-1 bg-primary h-9"
         :class="giftData?.presenteado && 'cursor-none bg-gray-500 text-xs'"
       >
         {{ buttonText }}

@@ -21,7 +21,7 @@ const whatsAppLink = computed(
 <template>
   <div class="flex gap-4">
     <div>
-      <h1 class="text-2xl font-semibold md:text-4xl text-primary">
+      <h1 class="text-2xl font-semibold md:text-3xl text-primary">
         {{ giftData?.nome }}
       </h1>
 

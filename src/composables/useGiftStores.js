@@ -37,7 +37,7 @@ export const useGiftStores = (storeName) => {
     },
     shopTime: {
       name: 'Shoptime',
-      loop: shoptimeLogo
+      logo: shoptimeLogo
     },
     camicado: {
       name: 'Camicado',
