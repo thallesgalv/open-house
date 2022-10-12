@@ -33,7 +33,7 @@ onMounted(getGifts)
     :giftList="giftList"
     :isGiftListLoading="isGiftListLoading"
   />
-  <div class="flex items-center justify-center w-full h-[40vh]">
+  <div class="flex items-center justify-center w-full">
     <CustomLoader v-if="isGiftListLoading" />
     <p
       v-if="giftList.length === 0 && !isGiftListLoading"

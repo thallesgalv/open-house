@@ -67,12 +67,12 @@ const copyKey = () => {
   >
     <img :src="giftImage" class="w-24 h-24 md:w-36 md:h-36" />
     <div class="flex flex-col justify-center gap-1 text-sm text-center">
-      <p class="flex justify-center font-semibold text-primary md:text-base">
+      <p class="flex justify-center text-base font-semibold text-primary">
         {{ giftName }}
       </p>
       <p>{{ giftPrice }}</p>
       <button
-        class="py-2 mx-auto mt-1 text-white truncate rounded w-36 md:w-full w-px-1 bg-primary h-9"
+        class="py-2 mx-auto mt-1 text-white truncate rounded w-36 md:w-full bg-primary h-9"
         :class="giftData?.presenteado && 'cursor-none bg-gray-500 text-xs'"
       >
         {{ buttonText }}

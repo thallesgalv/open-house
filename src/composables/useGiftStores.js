@@ -8,6 +8,7 @@ import shoptimeLogo from '@/assets/shoptime.png'
 import camicadoLogo from '@/assets/camicado.webp'
 import carrefourLogo from '@/assets/carrefour.webp'
 import extraLogo from '@/assets/extra.webp'
+import polishopLogo from '@/assets/polishop.webp'
 
 export const useGiftStores = (storeName) => {
   const stores = {
@@ -41,15 +42,19 @@ export const useGiftStores = (storeName) => {
     },
     camicado: {
       name: 'Camicado',
-      loop: camicadoLogo
+      logo: camicadoLogo
     },
     carrefour: {
       name: 'Carrefour',
-      loop: carrefourLogo
+      logo: carrefourLogo
     },
     extra: {
       name: 'Extra',
-      loop: extraLogo
+      logo: extraLogo
+    },
+    polishop: {
+      name: 'Polishop',
+      logo: polishopLogo
     }
   }
 
